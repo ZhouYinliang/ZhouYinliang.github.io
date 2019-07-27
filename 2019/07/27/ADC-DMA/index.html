@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="如何安装opencv_4.0.1相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情下面我就一个步步的演示如何在Ubuntu里面安装opencv">
+  <meta name="description" content="如何实现DMA+ADC有经验的都知道，DMA+ADC是一个十分不错的组合下面是我分享的代码可以作为参考">
 <meta name="keywords" content="STM32F407">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于STM32F07ZGT6的ADC+DMA">
 <meta property="og:url" content="https://ZhouYinliang.github.io/2019/07/27/ADC-DMA/index.html">
 <meta property="og:site_name" content="Just for happy">
-<meta property="og:description" content="如何安装opencv_4.0.1相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情下面我就一个步步的演示如何在Ubuntu里面安装opencv">
+<meta property="og:description" content="如何实现DMA+ADC有经验的都知道，DMA+ADC是一个十分不错的组合下面是我分享的代码可以作为参考">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-27T08:51:42.807Z">
+<meta property="og:updated_time" content="2019-07-27T09:03:10.544Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于STM32F07ZGT6的ADC+DMA">
-<meta name="twitter:description" content="如何安装opencv_4.0.1相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情下面我就一个步步的演示如何在Ubuntu里面安装opencv">
+<meta name="twitter:description" content="如何实现DMA+ADC有经验的都知道，DMA+ADC是一个十分不错的组合下面是我分享的代码可以作为参考">
 
 
 
@@ -367,7 +367,7 @@
                 
               
 
-              <time title="Erstellt: 2019-07-27 15:58:06 / Geändert am: 16:51:42" itemprop="dateCreated datePublished" datetime="2019-07-27T15:58:06+08:00">2019-07-27</time>
+              <time title="Erstellt: 2019-07-27 15:58:06 / Geändert am: 17:03:10" itemprop="dateCreated datePublished" datetime="2019-07-27T15:58:06+08:00">2019-07-27</time>
             
 
             
@@ -406,8 +406,8 @@
       
 
       
-        <h1 id="如何安装opencv-4-0-1"><a href="#如何安装opencv-4-0-1" class="headerlink" title="如何安装opencv_4.0.1"></a><strong>如何安装opencv_4.0.1</strong></h1><h2 id="相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情"><a href="#相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情" class="headerlink" title="相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情"></a>相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情</h2><h2 id="下面我就一个步步的演示如何在Ubuntu里面安装opencv"><a href="#下面我就一个步步的演示如何在Ubuntu里面安装opencv" class="headerlink" title="下面我就一个步步的演示如何在Ubuntu里面安装opencv"></a>下面我就一个步步的演示如何在Ubuntu里面安装opencv</h2><a id="more"></a>
-
+        <h1 id="如何实现DMA-ADC"><a href="#如何实现DMA-ADC" class="headerlink" title="如何实现DMA+ADC"></a><strong>如何实现DMA+ADC</strong></h1><h2 id="有经验的都知道，DMA-ADC是一个十分不错的组合"><a href="#有经验的都知道，DMA-ADC是一个十分不错的组合" class="headerlink" title="有经验的都知道，DMA+ADC是一个十分不错的组合"></a>有经验的都知道，DMA+ADC是一个十分不错的组合</h2><h2 id="下面是我分享的代码可以作为参考"><a href="#下面是我分享的代码可以作为参考" class="headerlink" title="下面是我分享的代码可以作为参考"></a>下面是我分享的代码可以作为参考</h2><a id="more"></a>
+<h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><h3 id="复制这个链接：链接：https-pan-baidu-com-s-1Do2Wldh97wUylN3lLWWK5Q"><a href="#复制这个链接：链接：https-pan-baidu-com-s-1Do2Wldh97wUylN3lLWWK5Q" class="headerlink" title="复制这个链接：链接：https://pan.baidu.com/s/1Do2Wldh97wUylN3lLWWK5Q"></a>复制这个链接：链接：<a href="https://pan.baidu.com/s/1Do2Wldh97wUylN3lLWWK5Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1Do2Wldh97wUylN3lLWWK5Q</a></h3><h3 id="提取码：28fs"><a href="#提取码：28fs" class="headerlink" title="提取码：28fs"></a>提取码：28fs</h3><h3 id="复制这段内容后打开百度网盘手机App，操作更方便哦"><a href="#复制这段内容后打开百度网盘手机App，操作更方便哦" class="headerlink" title="复制这段内容后打开百度网盘手机App，操作更方便哦"></a>复制这段内容后打开百度网盘手机App，操作更方便哦</h3><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><h3 id="下载验证"><a href="#下载验证" class="headerlink" title="下载验证"></a>下载验证</h3><h3 id="我是用到的是PA0口，直接用杜邦线和板子上的3-3V和GND相连。"><a href="#我是用到的是PA0口，直接用杜邦线和板子上的3-3V和GND相连。" class="headerlink" title="我是用到的是PA0口，直接用杜邦线和板子上的3.3V和GND相连。"></a>我是用到的是PA0口，直接用杜邦线和板子上的3.3V和GND相连。</h3><h3 id="按下KEY0更新电压值"><a href="#按下KEY0更新电压值" class="headerlink" title="按下KEY0更新电压值"></a>按下KEY0更新电压值</h3><h3 id="其中大多数都是参考正点原子的源码改过来的，初学者看着很轻松"><a href="#其中大多数都是参考正点原子的源码改过来的，初学者看着很轻松" class="headerlink" title="其中大多数都是参考正点原子的源码改过来的，初学者看着很轻松"></a>其中大多数都是参考正点原子的源码改过来的，初学者看着很轻松</h3><h3 id="希望我的分享能给你提供帮助"><a href="#希望我的分享能给你提供帮助" class="headerlink" title="希望我的分享能给你提供帮助"></a>希望我的分享能给你提供帮助</h3>
       
     </div>
 
@@ -663,7 +663,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#如何安装opencv-4-0-1"><span class="nav-number">1.</span> <span class="nav-text">如何安装opencv_4.0.1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情"><span class="nav-number">1.1.</span> <span class="nav-text">相信有过安装经历的人都知道，安装opencv是一个比较繁琐的事情</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下面我就一个步步的演示如何在Ubuntu里面安装opencv"><span class="nav-number">1.2.</span> <span class="nav-text">下面我就一个步步的演示如何在Ubuntu里面安装opencv</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#如何实现DMA-ADC"><span class="nav-number">1.</span> <span class="nav-text">如何实现DMA+ADC</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#有经验的都知道，DMA-ADC是一个十分不错的组合"><span class="nav-number">1.1.</span> <span class="nav-text">有经验的都知道，DMA+ADC是一个十分不错的组合</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下面是我分享的代码可以作为参考"><span class="nav-number">1.2.</span> <span class="nav-text">下面是我分享的代码可以作为参考</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步"><span class="nav-number">1.3.</span> <span class="nav-text">第一步</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#复制这个链接：链接：https-pan-baidu-com-s-1Do2Wldh97wUylN3lLWWK5Q"><span class="nav-number">1.3.1.</span> <span class="nav-text">复制这个链接：链接：https://pan.baidu.com/s/1Do2Wldh97wUylN3lLWWK5Q</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#提取码：28fs"><span class="nav-number">1.3.2.</span> <span class="nav-text">提取码：28fs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#复制这段内容后打开百度网盘手机App，操作更方便哦"><span class="nav-number">1.3.3.</span> <span class="nav-text">复制这段内容后打开百度网盘手机App，操作更方便哦</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二步"><span class="nav-number">1.4.</span> <span class="nav-text">第二步</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载验证"><span class="nav-number">1.4.1.</span> <span class="nav-text">下载验证</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#我是用到的是PA0口，直接用杜邦线和板子上的3-3V和GND相连。"><span class="nav-number">1.4.2.</span> <span class="nav-text">我是用到的是PA0口，直接用杜邦线和板子上的3.3V和GND相连。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#按下KEY0更新电压值"><span class="nav-number">1.4.3.</span> <span class="nav-text">按下KEY0更新电压值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其中大多数都是参考正点原子的源码改过来的，初学者看着很轻松"><span class="nav-number">1.4.4.</span> <span class="nav-text">其中大多数都是参考正点原子的源码改过来的，初学者看着很轻松</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#希望我的分享能给你提供帮助"><span class="nav-number">1.4.5.</span> <span class="nav-text">希望我的分享能给你提供帮助</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
